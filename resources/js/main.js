@@ -1,5 +1,7 @@
 $(document).ready(function () {
 
+  //carousel gallery in jumbotron
+
   $('.carousel').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -10,7 +12,8 @@ $(document).ready(function () {
     autoplaySpeed: 4000
    });
 
-
+   //Navbar animation
+   
    var scrolled = 0;
 
    $(window).scroll(function (){
